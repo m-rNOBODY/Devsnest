@@ -1,0 +1,18 @@
+body {
+ padding:5% 20%;
+ background-color:bisque;   
+ font-family: monospace;
+}
+
+.header{
+    line-height:4px;
+    font-size:19px;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+.topic{
+    font-size: 17px;
+}
+.content{
+    font-size: 17px;
+}
