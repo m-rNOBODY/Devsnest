@@ -1,0 +1,50 @@
+body{
+    padding:1% 20%;
+    /* border: 3px solid; */
+    /* position: relative; */
+}
+fieldset{
+    border:3px solid;
+}
+legend{
+    text-align:center;
+}
+h3{
+    color: rgb(66, 102, 218);
+
+}
+.resume{
+    /* border:3px solid; */
+    display:flex;
+}
+.left{
+    color: rgb(66, 102, 218);
+    width: 40%;
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* justify-content: space-between; */
+    /* background-color:red; */
+    padding:5%;
+    /* height: 90vh; */
+
+}
+
+.right {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(66, 102, 218);
+
+    width: 60%;
+    display:flex;
+    flex-direction: column;
+    align-items:right;
+    /* background-color:blue; */
+    padding:5%;
+    /* height: 90vh; */
+}
+
+.bor{
+    border-right: 3px solid;
+    border-color: black;
+}
