@@ -1,0 +1,56 @@
+.clock{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width:100%;
+    background-color:aqua;
+} 
+.outerCircle{
+    display:flex;
+    background-color:red;
+    height:600px;
+    width: 600px;
+    border-radius:50%;
+    align-items: center;
+    justify-content: center;
+}
+.innerCircle{
+    background-color:white;
+    height:450px;
+    width:450px;
+    border-radius:50%;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center; 
+    position:relative;
+
+} 
+
+.hour ,.min, .sec{
+    position: absolute;
+    top:50%;
+    width:100%;
+    /* background-color: black; */
+}
+.pointer{
+    height:10px;
+    width: 60%;
+    background-color:black;
+    border-radius:50%;
+}
+
+@keyframes rotate {
+    100%{transform: rotate(360deg);}
+}
+
+.hour{
+    animation:rotate 43200s infinite linear;
+}
+.min{
+    animation:rotate 3600s infinite linear;
+}
+.sec{
+    animation: rotate 60s infinite linear;
+}
+
